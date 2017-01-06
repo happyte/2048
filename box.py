@@ -153,7 +153,7 @@ class GameInit(object):
 		font1 = pygame.font.SysFont('simsun',48)
 		font2 = pygame.font.SysFont(None,32)
 		screen.blit(font1.render('Score:',True,(255,127,0)),(20,25))     #font.render第一个参数是文本内容，第二个参数是否抗锯齿，第三个参数字体颜色
-		screen.blit(font1.render('%s' % score,True,(255,127,0)),(140,25))
+		screen.blit(font1.render('%s' % score,True,(255,127,0)),(170,25))
 		screen.blit(font2.render('up',True,(255,127,0)),(360,20))
 		screen.blit(font2.render('left  down  right',True,(255,127,0)),(300,50))
 		a,b = matrix.shape
